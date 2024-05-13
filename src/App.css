@@ -4,7 +4,11 @@
   margin-bottom: 20px;
 }
 
-.little_space{
+.font{
+  font-size: 1.5rem;
+}
+
+.little_space {
   width: 10px;
 }
 
@@ -15,7 +19,7 @@
   font-weight: bold;
 }
 
-.OutofCircle{
+.OutofCircle {
   position: relative;
   margin: 0 auto;
   height: 600px;
@@ -35,7 +39,7 @@
   height: 200px;
 }
 
-.text1{
+.text1 {
   text-align: center;
   padding: 50% 25%;
   rotate: 45deg;
@@ -43,7 +47,7 @@
   font-weight: bold;
 }
 
-.text2{
+.text2 {
   text-align: center;
   padding: 50% 25%;
   rotate: 135deg;
@@ -51,7 +55,7 @@
   font-weight: bold;
 }
 
-.text3{
+.text3 {
   text-align: center;
   padding: 50% 25%;
   rotate: 225deg;
@@ -59,7 +63,7 @@
   font-weight: bold;
 }
 
-.text4{
+.text4 {
   text-align: center;
   padding: 50% 25%;
   rotate: 315deg;
@@ -95,29 +99,102 @@
   left: 0;
 }
 
-.under_circle{
+.under_circle {
   padding-top: 20px;
   padding-left: 40px;
-  /*width: 30%;*/
+  width: 30%;
   margin: 0 20px;
 }
 
-.under_form{
+.under_form {
   padding-bottom: 10px;
 }
 
-.next_text1{
+.next_text1 {
   background-color: #bbdbf3;
 }
 
-.next_text2{
+.next_text2 {
   background-color: #e3acae;
 }
 
-.next_text3{
+.next_text3 {
   background-color: #a3d6ce;
 }
 
-.next_text4{
+.next_text4 {
   background-color: #ffedab;
+}
+
+@media screen and (max-width:576px) {
+  .font{
+    font-size: 1rem;
+  }
+
+  #pointer {
+    /*text-align: center;*/
+    color: red;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+
+  .OutofCircle {
+    position: relative;
+    /*margin: 0 auto;*/
+    height: 250px;
+    width: 250px;
+  }
+
+  #circle {
+    /*position: relative;*/
+    height: 180px;
+    width: 180px;
+    /*margin: 0 auto;*/
+  }
+
+  .quarter {
+    /*position: absolute;*/
+    width: 90px;
+    height: 90px;
+  }
+
+  .under_circle {
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 60%;
+    margin: 0 20px;
+  }
+
+  .text1 {
+    text-align: center;
+    padding: 50% 25%;
+    rotate: 45deg;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .text2 {
+    text-align: center;
+    padding: 50% 25%;
+    rotate: 135deg;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .text3 {
+    text-align: center;
+    padding: 50% 25%;
+    rotate: 225deg;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .text4 {
+    text-align: center;
+    padding: 50% 25%;
+    rotate: 315deg;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
 }

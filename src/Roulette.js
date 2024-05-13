@@ -84,8 +84,9 @@ class Roulette extends Component {
         return (
             <div>
                 {/*選択項目の入力*/}
+                <div className='font'>選択肢入力</div>
                 <div className='row'>
-                    <div className='under_circle col-4'>
+                    <div className='under_circle'>
                         <div className='row under_form'>
                             <div className='col-1 next_text1'></div>
                             <div className='col-1'></div>
